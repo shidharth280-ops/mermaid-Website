@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-family:'DM Sans',sans-serif;
+color:#242421;
+background:#f7f6f1;
+font-synthesis:none;
+text-rendering:optimizeLegibility}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;
+min-width:320px}
+button,input,textarea,select{font:inherit}
+::selection{background:#d5d3cc;
+color:#242421}
+.container-wide{width:min(1160px,calc(100% - 40px));
+margin-inline:auto}
+.display-font{font-family:'Playfair Display',Georgia,serif}
+.grain{background-image:radial-gradient(rgba(40,40,35,.08) .65px,transparent .65px);
+background-size:5px 5px}
+.hero-orb{background:radial-gradient(circle at 35% 30%,#d9d7cf,#aaa9a2 55%,#777773)}
+

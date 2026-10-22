@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx,ts,tsx}'],theme:{extend:{colors:{mermaid:{ink:'#242421',grey:'#777773',mist:'#e8e7e2',paper:'#f7f6f1'}},fontFamily:{display:['Georgia','serif']}}},plugins:[]};
